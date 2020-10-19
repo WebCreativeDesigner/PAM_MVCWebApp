@@ -1,0 +1,20 @@
+This project has the following:
+
+1.	A Home Page where you can change images.
+2.	A Calculation Page which will allow a user to do the following:
+3.	Click a button which either shows as "Show Calculation" or "Hide Calculation".  This will Show or hide a div with more information on the formula..
+4.	2 buttons to Export to Excel and Export to CSV
+5.	A table with the following fields ID, RawData, m, c and Calculated.  Calculated should be the correct final figure required.
+
+It is an MVC C# app which has the following:
+1.	A model 
+2.	A repository
+3.	Two controllers (Home and Calculation).
+4.	Two Razor .cshtml files.
+
+If I were to improve this:
+1.	I would do further work on the User Interface with more CSS / HTML design. Eg. a better menu, different fonts for text.
+2.	Add more content to the webpage.
+3.	The views are currently configured to pull only one specific model.  I think I would change this to use a List Model for the data rather than the model.
+4.	Probably more comments in the code.
+5.	Create a SQL database and use Entity Framework to interface with the repository.  Add update and delete functionality.
